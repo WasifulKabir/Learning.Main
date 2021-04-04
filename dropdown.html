@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dropdown</title>
+		<link rel="stylesheet" href="assets/css/icon/css/font-awesome.min.css">
+		<style>
+			*
+{
+ padding:0px;
+ margin: 0px;
+ box-sizing:border-box;
+}
+body{
+	background-image: url(assets/img/Website-Background-Images-HD-Free-Download-Wallpaperxyz.com-3.jpg);
+	background-size: cover;
+	background-repeat:repeat;
+	background-position: center;	
+	font-family: sans-serif;
+}
+.manu-bar{
+	background-color: rgb(0,100,0);
+	text-align: center;
+}
+.manu-bar ul{
+	display:inline-flex;
+	list-style-type: none;
+	color: #fff;
+
+
+}
+.manu-bar ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+
+}
+.manu-bar ul li a{
+	text-decoration: none;
+	color:#fff;
+}
+.active,.manu-bar ul li:hover
+{
+background: #2bab0b;
+border-radius: 3px;
+}
+.manu-bar .fa{
+	margin-right:8px;
+}
+.sub-manu-1{
+	display: none;
+}
+.manu-bar ul li:hover .sub-manu-1
+{
+display: block;
+position: absolute;
+background-color: rgb(0,100,0);
+margin-top: 15px;
+margin-left: 15px;
+}
+.manu-bar ul li:hover .sub-manu-1 ul{
+	display: block;
+	margin: 10px;
+
+}
+.manu-bar ul li:hover .sub-manu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius:0px;
+	text-align: left;
+}
+.manu-bar ul li:hover .sub-manu-1 ul li:last-child
+{
+	border-bottom:0px !important;
+}
+.manu-bar ul li:hover .sub-manu-1 ul li a:hover{
+	color:#b2ff00;
+}
+.fa-angle-right{
+float: right;
+
+}
+.sub-manu-2{
+	display:none;
+}
+.hover-me:hover .sub-manu-2{
+position: absolute;
+display: block;
+margin-top: -40px;
+margin-left: 140px;
+background-color: rgba(0,100,0);
+}
+		</style>
+	</head>
+	<body>
+		<div class="manu-bar">
+			<ul>
+				<li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+				<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>About Us</a>
+				<div class="sub-manu-1">
+					<ul>
+						<li><a href="#">Mission</a></li>
+						<li><a href="#">Vision</a></li>
+						<li><a href="#">Team</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#"><i class="fa fa-clone" aria-hidden="true"></i>Services</a>
+			<div class="sub-manu-1">
+				<ul>
+					<li><a href="#">Web Desinging</a></li>
+					<li class="hover-me"><a href="#">Merketing</a><i class="fa fa-angle-right" aria-hidden="true"></i>
+<div class="sub-manu-2">
+	<ul>									
+	<li><a href="#">SEO</a></li>
+	<li><a href="#">Social Media </a></li>
+	<li><a href="#">E-Mail</a></li>
+</ul>
+</div>
+</li>
+			<li class="hover-me"><a href="#">Mobile App</a><i class="fa fa-angle-right" aria-hidden="true"></i>
+<div class="sub-manu-2">
+	<ul>
+		<li><a href="#">Android App</a></li>
+		<li><a href="#">ios App </a></li>
+		<li><a href="#">Ionic App</a></li>
+		<li><a href="#">Flater App</a></li>
+		<li><a href="#">Unity App</a></li>
+	</ul>
+</div>
+</li>
+
+			</li>
+		</ul>
+	</div>
+</li>
+<li><a href="#"><i class="fa fa-users" aria-hidden="true"></i>Clients</a></li>
+<li><a href="#"><i class="fa fa-angellist" aria-hidden="true"></i>Investors</a></li>
+<li><a href="#"><i class="fa fa-inr" aria-hidden="true"></i>Pricing</a></li>
+<li><a href="#"><i class="fa fa-edit" aria-hidden="true"></i>Training</a></li>
+<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
+</ul>
+</div>
+</body>
+</html>

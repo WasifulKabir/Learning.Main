@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>layout</title>
+        <style>
+        body{
+        padding: 0;
+        margin:  0;
+        }
+        header{
+        height: 80px;
+        width: 100%;
+        background: #00ffff;
+        }
+        h1,h2,h3,h4,h5,h6{
+        padding: 0;
+        margin:  0;
+        }
+        nav{
+        height: 60px;
+        width: 100%;
+        background: #00ff4fcd;
+        }
+        .row{
+        display:flex;
+        }
+        .col-md-4{
+        height: 400px;
+        width: 400px;
+        background: orange;
+        }
+        .col-md-8{
+        width: 100%;
+        }
+        section{
+        height: 200px;
+        width: 100%;
+        background: #ff0000;
+        }
+        article{
+        height: 200px;
+        width: 100%;
+        background: #00ff00;
+        }
+        footer{
+        height: 150px;
+        width: 100%;
+        background: #0000ff;
+        }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Header</h1>
+            <!-- <div>
+           <b>search:</b><input type="search">
+           </div> -->
+        </header>
+        <nav>
+            <h3>Nav Menu</h3>
+        </nav>
+        <div class="col-md-4">
+            <aside>
+                <h3>Aside</h3>
+            </aside>
+        </div>
+        <div class="col-md-8">
+            <section>
+                <h1>Section</h1>
+            </section>
+            <article>
+                <h1>Article</h1>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+</html>
